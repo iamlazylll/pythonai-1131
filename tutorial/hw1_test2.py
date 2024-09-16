@@ -32,7 +32,7 @@ def call_utils(codes):
     if codes == 1:
         return get_grade()
     else:
-        return "無此功能"
+        return "錯誤，無此功能"
       
 try:
     utilties = input("請輸入你要呼叫的功能: ")
